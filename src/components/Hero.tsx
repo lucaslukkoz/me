@@ -13,10 +13,10 @@ export default function Hero() {
         {/* Photo */}
         <div className="relative mb-8 h-40 w-40 overflow-hidden rounded-full border-4 border-primary shadow-lg ring-4 ring-blue-100 md:h-52 md:w-52">
           <Image
-            src="/minha-foto.jpg"
+            src="/minha-foto.png"
             alt="Lucas — profile photo"
             fill
-            className="object-cover"
+            className="object-cover object-[center_20%]"
             priority
           />
         </div>
