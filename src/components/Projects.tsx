@@ -15,6 +15,7 @@ const projects: Project[] = [
       "I have a project similar to Outlook, where users can add and manage their emails directly in the app. It features sending, replying, forwarding, and organizing emails, as well as attachment previews, favorites, drafts, and a productivity dashboard.",
     techs: ["Node.js", "TypeScript", "Express", "MySQL", "BullMQ", "Docker", "Redis", "CI / CD", "Next.js"],
     live: "http://23.23.68.239/",
+    github: "https://github.com/lucaslukkoz/l9trends",
 
   },
   {
