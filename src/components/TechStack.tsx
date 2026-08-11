@@ -13,9 +13,11 @@ import {
   SiExpress,
   SiRedis,
   SiRabbitmq,
+  SiPython,
 } from "react-icons/si";
 import { FaAws } from "react-icons/fa";
 import { GiBull } from "react-icons/gi";
+import { TbBrandCSharp } from "react-icons/tb";
 import type { IconType } from "react-icons";
 
 interface Tech {
@@ -42,6 +44,8 @@ const categories: Category[] = [
     techs: [
       { name: "Node.js", icon: SiNodedotjs },
       { name: "TypeScript", icon: SiTypescript },
+      { name: "Python", icon: SiPython },
+      { name: "C#", icon: TbBrandCSharp },
       { name: "Express", icon: SiExpress },
       { name: "Redis", icon: SiRedis },
       { name: "RabbitMQ", icon: SiRabbitmq },
