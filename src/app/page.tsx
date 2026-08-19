@@ -10,11 +10,11 @@ import Footer from "@/components/Footer";
 
 export default function Home() {
   return (
-    <div className="relative min-h-screen bg-slate-950 text-slate-100 selection:bg-sky-500 selection:text-white">
+    <div className="relative w-full max-w-[100vw] overflow-x-hidden bg-slate-950 text-slate-100 selection:bg-sky-500 selection:text-white">
       {/* Fixed Navigation */}
       <Navbar />
 
-      <main className="flex flex-col">
+      <main className="flex flex-col w-full max-w-full overflow-x-hidden">
         {/* Hero with 3D Three.js Interactive Particle Cosmos */}
         <Hero />
 

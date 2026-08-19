@@ -80,7 +80,7 @@ const PROJECTS: Project[] = [
 
 export default function Projects() {
   return (
-    <section id="projects" className="relative w-full px-6 py-24 md:py-32">
+    <section id="projects" className="relative w-full max-w-[100vw] overflow-hidden px-4 sm:px-6 py-20 md:py-32">
       {/* Background styling */}
       <div className="pointer-events-none absolute inset-0 bg-gradient-to-b from-slate-950 via-slate-900/80 to-slate-950" />
 

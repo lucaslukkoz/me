@@ -158,8 +158,8 @@ export default function DevTerminal() {
   };
 
   return (
-    <section id="terminal" className="relative w-full px-6 py-20 bg-slate-950">
-      <div className="mx-auto max-w-4xl">
+    <section id="terminal" className="relative w-full max-w-[100vw] overflow-hidden px-4 sm:px-6 py-16 sm:py-20 bg-slate-950">
+      <div className="mx-auto max-w-4xl w-full min-w-0">
         {/* Terminal Header */}
         <div className="flex flex-col items-center text-center mb-8">
           <div className="inline-flex items-center gap-2 rounded-full border border-sky-500/30 bg-sky-500/10 px-3.5 py-1 text-xs font-semibold uppercase tracking-wider text-sky-300">
@@ -177,7 +177,7 @@ export default function DevTerminal() {
         {/* Terminal Window */}
         <div
           onClick={() => inputRef.current?.focus()}
-          className="rounded-xl border border-slate-800 bg-slate-950/90 shadow-2xl backdrop-blur-xl overflow-hidden cursor-text"
+          className="w-full min-w-0 max-w-full rounded-xl border border-slate-800 bg-slate-950/90 shadow-2xl backdrop-blur-xl overflow-hidden cursor-text"
         >
           {/* Top Bar */}
           <div className="flex items-center justify-between border-b border-slate-800 bg-slate-900/80 px-4 py-3">

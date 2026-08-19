@@ -5,7 +5,7 @@ import { FiBox, FiActivity, FiArrowRight, FiShield, FiTrendingUp } from "react-i
 
 export default function ArchitectureVisualizer() {
   return (
-    <section className="relative w-full px-6 py-20 bg-slate-950/60 border-y border-slate-900">
+    <section className="relative w-full max-w-[100vw] overflow-hidden px-4 sm:px-6 py-16 sm:py-20 bg-slate-950/60 border-y border-slate-900">
       <div className="mx-auto max-w-7xl">
         {/* Section Header */}
         <div className="flex flex-col items-center text-center mb-12">

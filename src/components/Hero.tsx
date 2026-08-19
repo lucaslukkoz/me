@@ -9,14 +9,14 @@ export default function Hero() {
   return (
     <section
       id="about"
-      className="relative flex min-h-[92vh] w-full flex-col items-center justify-center overflow-hidden px-6 pt-32 pb-20 md:pt-40 md:pb-28"
+      className="relative flex min-h-[90vh] w-full max-w-[100vw] flex-col items-center justify-center overflow-hidden px-4 sm:px-6 pt-28 pb-16 md:pt-40 md:pb-28"
     >
       {/* 3D Three.js Interactive Particle Background */}
       <NetworkBackground />
 
       {/* Ambient background glows */}
-      <div className="pointer-events-none absolute top-1/4 left-1/2 h-[500px] w-[600px] -translate-x-1/2 -translate-y-1/2 rounded-full bg-sky-500/10 blur-[130px]" />
-      <div className="pointer-events-none absolute -bottom-10 left-10 h-[300px] w-[300px] rounded-full bg-indigo-500/10 blur-[100px]" />
+      <div className="pointer-events-none absolute top-1/4 left-1/2 h-[300px] sm:h-[500px] w-[300px] sm:w-[600px] -translate-x-1/2 -translate-y-1/2 rounded-full bg-sky-500/10 blur-[100px] sm:blur-[130px]" />
+      <div className="pointer-events-none absolute -bottom-10 left-0 h-[250px] sm:h-[300px] w-[250px] sm:w-[300px] rounded-full bg-indigo-500/10 blur-[80px] sm:blur-[100px]" />
 
       <div className="relative z-10 mx-auto flex max-w-5xl flex-col items-center text-center">
         {/* Availability Badge */}

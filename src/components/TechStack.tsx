@@ -245,7 +245,7 @@ export default function TechStack() {
       : CATEGORIES.filter((c) => c.title.toLowerCase().includes(filter.toLowerCase()));
 
   return (
-    <section id="stack" className="relative w-full px-6 py-24 md:py-32">
+    <section id="stack" className="relative w-full max-w-[100vw] overflow-hidden px-4 sm:px-6 py-20 md:py-32">
       {/* Background pattern */}
       <div className="pointer-events-none absolute inset-0 bg-grid-pattern opacity-40" />
 

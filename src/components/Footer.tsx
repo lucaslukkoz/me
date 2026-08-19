@@ -9,7 +9,7 @@ export default function Footer() {
   };
 
   return (
-    <footer className="border-t border-slate-800/80 bg-slate-950 px-6 py-12 text-slate-400">
+    <footer className="w-full max-w-[100vw] overflow-hidden border-t border-slate-800/80 bg-slate-950 px-4 sm:px-6 py-10 sm:py-12 text-slate-400">
       <div className="mx-auto flex max-w-7xl flex-col items-center justify-between gap-6 md:flex-row">
         {/* Brand & Tagline */}
         <div className="flex flex-col items-center md:items-start">

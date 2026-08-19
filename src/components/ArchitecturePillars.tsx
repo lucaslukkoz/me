@@ -229,7 +229,7 @@ export default function ArchitecturePillars() {
   const [selectedPillar, setSelectedPillar] = useState<Pillar>(PILLARS[0]);
 
   return (
-    <section id="architecture" className="relative w-full px-6 py-24 md:py-32">
+    <section id="architecture" className="relative w-full max-w-[100vw] overflow-hidden px-4 sm:px-6 py-20 md:py-32">
       {/* Background radial gradient */}
       <div className="pointer-events-none absolute inset-0 bg-radial-gradient opacity-60" />
 
@@ -342,7 +342,7 @@ export default function ArchitecturePillars() {
             </div>
 
             {/* Right Column: Code Snippet Showcase */}
-            <div className="flex flex-col rounded-xl border border-slate-800 bg-slate-900/90 shadow-inner lg:col-span-6 overflow-hidden">
+            <div className="flex min-w-0 max-w-full flex-col rounded-xl border border-slate-800 bg-slate-900/90 shadow-inner lg:col-span-6 overflow-hidden">
               <div className="flex items-center justify-between border-b border-slate-800 bg-slate-950/60 px-4 py-3">
                 <div className="flex items-center gap-2">
                   <div className="h-3 w-3 rounded-full bg-rose-500/80" />
