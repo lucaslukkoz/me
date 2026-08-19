@@ -27,13 +27,13 @@ export default function Navbar() {
 
   return (
     <header
-      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
+      className={`fixed top-0 left-0 right-0 z-50 w-full max-w-full transition-all duration-300 ${
         scrolled
           ? "bg-slate-950/80 backdrop-blur-md border-b border-slate-800/80 shadow-lg shadow-black/40 py-3"
-          : "bg-transparent py-5"
+          : "bg-transparent py-4 sm:py-5"
       }`}
     >
-      <div className="mx-auto flex max-w-7xl items-center justify-between px-6">
+      <div className="mx-auto flex max-w-7xl items-center justify-between px-4 sm:px-6">
         {/* Brand / Monogram */}
         <a
           href="#"
@@ -101,7 +101,7 @@ export default function Navbar() {
 
       {/* Mobile Drawer */}
       {mobileMenuOpen && (
-        <div className="border-b border-slate-800 bg-slate-950/95 px-6 py-6 backdrop-blur-xl lg:hidden">
+        <div className="w-full max-w-full overflow-hidden border-b border-slate-800 bg-slate-950/95 px-4 py-5 backdrop-blur-xl lg:hidden">
           <div className="flex flex-col gap-2">
             {NAV_LINKS.map((link) => (
               <a

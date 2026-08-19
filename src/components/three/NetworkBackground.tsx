@@ -27,6 +27,10 @@ export default function NetworkBackground() {
     const renderer = new THREE.WebGLRenderer({ alpha: true, antialias: true });
     renderer.setSize(container.clientWidth, container.clientHeight);
     renderer.setPixelRatio(Math.min(window.devicePixelRatio, 2));
+    renderer.domElement.style.width = "100%";
+    renderer.domElement.style.maxWidth = "100%";
+    renderer.domElement.style.display = "block";
+    renderer.domElement.style.pointerEvents = "none";
     container.appendChild(renderer.domElement);
 
     // Nodes (Particles)

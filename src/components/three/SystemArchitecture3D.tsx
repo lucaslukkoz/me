@@ -96,6 +96,9 @@ export default function SystemArchitecture3D() {
     const renderer = new THREE.WebGLRenderer({ alpha: true, antialias: true });
     renderer.setSize(container.clientWidth, container.clientHeight);
     renderer.setPixelRatio(Math.min(window.devicePixelRatio, 2));
+    renderer.domElement.style.width = "100%";
+    renderer.domElement.style.maxWidth = "100%";
+    renderer.domElement.style.display = "block";
     container.appendChild(renderer.domElement);
 
     // Lighting
@@ -353,7 +356,7 @@ export default function SystemArchitecture3D() {
   }, [activeNode.id]);
 
   return (
-    <div className="relative flex flex-col items-center rounded-2xl border border-slate-800 bg-slate-950/80 p-4 shadow-2xl backdrop-blur-xl md:p-6">
+    <div className="relative flex w-full min-w-0 max-w-full flex-col items-center rounded-2xl border border-slate-800 bg-slate-950/80 p-3 sm:p-4 md:p-6 shadow-2xl backdrop-blur-xl overflow-hidden">
       {/* Top Banner with Instructions */}
       <div className="flex w-full flex-wrap items-center justify-between gap-3 border-b border-slate-800/80 pb-4">
         <div className="flex items-center gap-2">
