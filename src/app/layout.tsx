@@ -13,9 +13,34 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Lucas | Portfolio",
+  title: "Lucas Lins | Full Stack & Distributed Systems Engineer",
   description:
-    "Full-stack developer portfolio — Node.js, TypeScript, React, AWS, and more.",
+    "Full Stack Engineer with 5+ years of experience designing scalable distributed systems, event-driven architectures, high-performance Node.js streams, and modern Next.js/React applications.",
+  keywords: [
+    "Full Stack Engineer",
+    "Distributed Systems",
+    "Event-Driven Architecture",
+    "Node.js Streams",
+    "TypeScript",
+    "Next.js",
+    "React",
+    "Kafka",
+    "RabbitMQ",
+    "Redis",
+    "BullMQ",
+    "Clean Architecture",
+    "Hexagonal Architecture",
+    "Docker",
+    "Kubernetes",
+    "AWS",
+  ],
+  authors: [{ name: "Lucas Lins" }],
+  openGraph: {
+    title: "Lucas Lins | Full Stack & Distributed Systems Engineer",
+    description:
+      "Full Stack Engineer specializing in scalable distributed systems, event-driven microservices, high-throughput Node.js streaming pipelines, and modern web applications.",
+    type: "website",
+  },
 };
 
 export default function RootLayout({
@@ -28,7 +53,7 @@ export default function RootLayout({
       lang="en"
       className={`${geistSans.variable} ${geistMono.variable} antialiased`}
     >
-      <body>{children}</body>
+      <body className="bg-slate-950 text-slate-100">{children}</body>
     </html>
   );
 }
