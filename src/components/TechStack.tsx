@@ -326,11 +326,7 @@ export default function TechStack() {
                   return (
                     <div
                       key={tech.name}
-                      className={`group relative flex flex-col justify-between rounded-xl border p-4 transition-all duration-200 ${
-                        tech.highlight
-                          ? "border-sky-500/30 bg-slate-900/80 hover:border-sky-400/60 hover:shadow-lg hover:shadow-sky-500/10"
-                          : "border-slate-800/80 bg-slate-900/40 hover:border-slate-700 hover:bg-slate-900/70"
-                      }`}
+                      className="group relative flex flex-col justify-between rounded-xl border border-sky-500/25 bg-slate-900/80 p-4 transition-all duration-200 hover:border-sky-400/80 hover:bg-slate-900 hover:shadow-xl hover:shadow-sky-500/15"
                     >
                       <div>
                         <div className="flex items-center justify-between">
