@@ -63,7 +63,7 @@ export default function DevTerminal() {
           <div className="space-y-1 text-xs text-slate-300">
             <p className="text-sky-400 font-bold">Lucas — Full Stack &amp; Distributed Systems Engineer</p>
             <p>5+ years designing scalable microservices, high-throughput Node.js streams, and modern Next.js/React apps.</p>
-            <p className="text-slate-400">Core ecosystem: Node.js / TypeScript • .NET (C#) • Python • React / Next.js • Docker • AWS</p>
+            <p className="text-slate-400">Core ecosystem: Node.js (NestJS, Express) / TypeScript • .NET (C#) • Python • React / Next.js • Docker • AWS</p>
           </div>
         );
         break;
@@ -73,7 +73,7 @@ export default function DevTerminal() {
           <div className="space-y-1 text-xs text-slate-300">
             <p className="text-emerald-400 font-bold">Core Technical Matrix:</p>
             <p><span className="text-slate-400">Messaging:</span> Apache Kafka, RabbitMQ, BullMQ, Redis (Redlock)</p>
-            <p><span className="text-slate-400">Backend:</span> Node.js Streams, TypeScript, C# (.NET Core), Python, Express</p>
+            <p><span className="text-slate-400">Backend:</span> NestJS, Node.js Streams, TypeScript, Express, C# (.NET Core), Python</p>
             <p><span className="text-slate-400">Databases:</span> PostgreSQL, MySQL, MongoDB, Sequelize, Prisma</p>
             <p><span className="text-slate-400">Frontend:</span> React, Next.js (App Router, RSC), Tailwind CSS, WebSockets</p>
             <p><span className="text-slate-400">DevOps:</span> Docker, Kubernetes, AWS, CI/CD GitHub Actions, Jest, Supertest</p>

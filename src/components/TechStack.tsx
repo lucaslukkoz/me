@@ -19,6 +19,7 @@ import {
   SiRabbitmq,
   SiPython,
   SiApachekafka,
+  SiNestjs,
 } from "react-icons/si";
 import { FaAws } from "react-icons/fa";
 import { GiBull } from "react-icons/gi";
@@ -83,6 +84,13 @@ const CATEGORIES: TechCategory[] = [
     description: "Asynchronous runtimes, memory-optimized streaming pipelines & API services.",
     items: [
       {
+        name: "NestJS",
+        icon: SiNestjs,
+        level: "Expert",
+        useCase: "Enterprise modular architectures, dependency injection, microservices & guards",
+        highlight: true,
+      },
+      {
         name: "Node.js (Streams)",
         icon: SiNodedotjs,
         level: "Expert",
@@ -97,6 +105,12 @@ const CATEGORIES: TechCategory[] = [
         highlight: true,
       },
       {
+        name: "Express.js",
+        icon: SiExpress,
+        level: "Expert",
+        useCase: "High-performance modular HTTP APIs with custom middleware pipelines",
+      },
+      {
         name: "C# / ASP.NET Core",
         icon: TbBrandCSharp,
         level: "Advanced",
@@ -107,12 +121,6 @@ const CATEGORIES: TechCategory[] = [
         icon: SiPython,
         level: "Advanced",
         useCase: "Data scripting, automation workflows & microservices",
-      },
-      {
-        name: "Express.js",
-        icon: SiExpress,
-        level: "Expert",
-        useCase: "High-performance modular HTTP APIs with custom middleware pipelines",
       },
     ],
   },

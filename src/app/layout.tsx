@@ -29,6 +29,7 @@ export const metadata: Metadata = {
     "Event-Driven Architecture",
     "Node.js Streams",
     "TypeScript",
+    "NestJS",
     "Next.js",
     "React",
     "Kafka",

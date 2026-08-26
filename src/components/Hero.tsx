@@ -60,7 +60,7 @@ export default function Hero() {
 
         {/* Sub-description with technical pillars */}
         <p className="mt-4 max-w-2xl text-sm text-slate-400 leading-relaxed md:text-base">
-          Specialized in the Node.js / TypeScript ecosystem, modern Next.js/React frontends, .NET Core (C#), and Python.
+          Specialized in the Node.js / TypeScript ecosystem (NestJS, Express), modern Next.js/React frontends, .NET Core (C#), and Python.
           Strong champion of Clean Architecture, Hexagonal patterns (Ports &amp; Adapters), and memory-optimized streaming pipelines.
         </p>
 
